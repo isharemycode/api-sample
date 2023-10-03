@@ -22,10 +22,10 @@ public class GreetingController {
 		return new Greeting(counter.incrementAndGet(), String.format(template, name));
 	}
 
-	@PostMapping("/formSubmit")
-	public String formSubmit(@RequestBody Form form) {
-		return "Success";
-	}
+	// @PostMapping("/formSubmit")
+	// public String formSubmit(@RequestBody Form form) {
+	// 	return "Success";
+	// }
 
 
 }
